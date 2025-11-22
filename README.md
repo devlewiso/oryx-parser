@@ -1,5 +1,10 @@
 # ORYX v0.1 — Optimized Representation for Yielding eXpression
 
+![Status](https://img.shields.io/badge/status-draft-yellow)
+![Spec](https://img.shields.io/badge/spec-v0.1-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Language](https://img.shields.io/badge/TypeScript-100%25-blue)
+
 **Estado:** Especificación inicial (Draft)
 **Licencia sugerida:** MIT
 **Objetivo:** Definir la sintaxis, semántica y principios de diseño del formato ORYX, orientado a comunicación optimizada con modelos de lenguaje.
