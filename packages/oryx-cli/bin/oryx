@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+const { program } = require('commander');
+const { version } = require('../package.json');
+
+program
+  .name('oryx')
+  .description('ORYX Format CLI')
+  .version(version);
+
+program.command('parse')
+  .description('Parse an ORYX file to JSON')
+  .argument('<file>', 'file to parse')
+  .action((file) => {
+    console.log(`Parsing ${file}... (Not implemented yet)`);
+  });
+
+program.parse();

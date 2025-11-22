@@ -167,6 +167,12 @@ export class OryxParser {
   }
 }
 
+// Convenience function for simple parsing
+export function parse(input: string, options?: OryxParseOptions): any {
+  const parser = new OryxParser(input, options);
+  return parser.parse();
+}
+
 // TODO: Add OryxEncoder class
 // TODO: Add validation module
 // TODO: Add error diagnostics

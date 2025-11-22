@@ -1,0 +1,15 @@
+{
+    "name": "@oryx-format/cli",
+    "version": "0.1.0",
+    "bin": {
+        "oryx": "./bin/oryx"
+    },
+    "scripts": {
+        "build": "tsc",
+        "start": "node bin/oryx"
+    },
+    "dependencies": {
+        "@oryx-format/parser": "^0.1.0",
+        "commander": "^11.0.0"
+    }
+}

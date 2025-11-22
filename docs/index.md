@@ -1,25 +1,13 @@
-# Documentación Oficial de ORYX
+# ORYX Documentation
 
-Bienvenido a la documentación oficial del formato **ORYX**.
+Welcome to the official documentation for the ORYX data format.
 
-ORYX es un estándar compacto y optimizado para comunicación con modelos de lenguaje, diseñado para maximizar la densidad semántica y minimizar el uso de tokens.
+## Guides
 
-## Contenido
+- [Introduction](./intro.md)
+- [Syntax Guide](./syntax.md)
+- [API Reference](./api.md)
 
-- Introducción
-- Principios del diseño
-- Sintaxis base
-- Arrays tabulares
-- Alias
-- Bloques semánticos
-- Modo ultradenso
-- Ejemplos completos
-- Implementaciones oficiales
-- Roadmap del proyecto
+## Specification
 
-## Estado
-Versión del estándar: **v0.1 (Draft)**  
-Esta documentación evolucionará conforme avanzan las versiones del formato.
-
-## Repositorio
-Próximamente: `https://github.com/oryx-format/oryx`
+For the formal definition of the language, please refer to [SPEC.md](../SPEC.md).
