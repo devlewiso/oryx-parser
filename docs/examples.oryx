@@ -1,0 +1,170 @@
+# ORYX Examples (Full Demo File)
+
+# =========================
+# 10 BASIC USE CASES
+# =========================
+
+frutas[3]: manzana, pera, uva
+
+productos_basicos[2]{id,nombre}:
+  1, Mouse
+  2, Teclado
+
+config_basica:
+  idioma: es
+  modo: rapido
+
+cursos[3]{id,nombre}:
+  1, IA Básica
+  2, Python
+  3, Finanzas
+
+gastos[3]{mes,monto}:
+  enero, 120
+  febrero, 90
+  marzo, 150
+
+libros[2]{id,titulo}:
+  1, Dune
+  2, 1984
+
+pasos[4]: abrir, escanear, resumir, responder
+
+items_basicos[2]{id,nombre,stock}:
+  1, Audífonos, 20
+  2, Cargador, 50
+
+perfil_simple:
+  nombre: Iran
+  país: MX
+
+json_reemplazo:
+  pero_mas: limpio
+
+# =========================
+# 10 INTERMEDIATE USE CASES
+# =========================
+
+productos_intermedios[5]{id,nombre,precio}:
+  1, Laptop, 1500
+  2, Tablet, 600
+  3, Mouse, 25
+  4, Teclado, 80
+  5, Monitor, 230
+
+@block contexto_intermedio:
+  autor: Iran
+  proyecto: ORYX
+
+clientes[3]{id,nombre}:
+  1, Ana
+  2, Luis
+  3, Joana
+
+logs[3]{hora,event}:
+  09:00, inicio
+  10:00, carga
+  11:00, error
+
+tareas_intermedias[3]{id,accion}:
+  1, analizar
+  2, resumir
+  3, ejecutar
+
+@alias { nombre:n, edad:e }
+personas_alias[2]{n,e}:
+  Iran, 35
+  Luis, 28
+
+empresa_intermedia:
+  nombre: ORYX
+  fundadores[2]: Iran, Lewis
+
+faq[3]{pregunta,respuesta}:
+  horario, lunes a viernes
+  envíos, 24 horas
+  soporte, 24/7
+
+proyecto_intermedio:
+  nombre: oryx-format
+  estado: activo
+
+tareas_proyecto[3]{id,descripcion}:
+  1, crear parser
+  2, crear spec
+  3, publicar
+
+usuario_intermedio:
+  nombre: Iran
+  rol: admin
+
+accesos[2]{area,permiso}:
+  sistema, total
+  base, lectura
+
+# =========================
+# 10 ADVANCED USE CASES
+# =========================
+
+productos_avanzados[10]{id,nombre,categoria,precio,stock}:
+  1, Laptop Pro, computo, 2500, 5
+  2, Laptop Air, computo, 1800, 8
+  3, Monitor XL, video, 300, 12
+  4, Teclado Mecanico, periférico, 80, 40
+  5, Mouse Gamer, periférico, 60, 35
+  6, Tablet S, portatil, 900, 4
+  7, Audífonos Max, audio, 350, 22
+  8, Webcam HD, camaras, 70, 18
+  9, SSD 1TB, almacenamiento, 120, 50
+  10, Cargador Rapido, energía, 30, 100
+
+proyecto_completo:
+  nombre: ORYX
+  version: 0.1
+
+modulos[3]{id,nombre,estado}:
+  1, parser, listo
+  2, encoder, beta
+  3, cli, pendiente
+
+documentos[4]{id,titulo,contenido}:
+  1, Guia ORYX, ...
+  2, Parser Spec, ...
+  3, Ejemplos, ...
+  4, Roadmap, ...
+
+api_call:
+  url: https://api.example.com
+  metodo: POST
+
+headers[2]{k,v}:
+  Content-Type, application/json
+  Authorization, Bearer X
+
+@block reglas_validacion:
+  users_min: 1
+  stock_min: 0
+
+config_avanzada:
+  modo: server
+  puertos[2]: 8080, 443
+
+ventas_ultra[3]{id,total}:1,120;2,90;3,150
+
+reporte_avanzado:
+  titulo: Inventario
+  fecha: 2025-11-22
+
+items_reporte[3]{producto,cantidad}:
+  Mouse, 20
+  Teclado, 8
+  Monitor, 3
+
+@block agent_profile:
+  objetivo: responder con precisión
+  estilo: directo
+
+conocimiento[3]{id,hecho}:
+  1, ORYX es compacto
+  2, ORYX es eficiente
+  3, ORYX evita redundancia
