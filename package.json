@@ -4,8 +4,14 @@
   "description": "Official website for the ORYX format",
   "private": true,
   "scripts": {
-    "dev": "npx serve . -l 3000",
-    "build": "echo 'Static site — nothing to build'",
-    "preview": "npx serve . -l 4000"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "preview": "next build && npx serve out -l 4000"
+  },
+  "dependencies": {
+    "next": "14.2.29",
+    "react": "^18",
+    "react-dom": "^18"
   }
 }
