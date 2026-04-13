@@ -4,8 +4,8 @@
   "description": "Official website for the ORYX format",
   "private": true,
   "scripts": {
-    "dev": "npx serve docs -l 3000",
+    "dev": "npx serve . -l 3000",
     "build": "echo 'Static site — nothing to build'",
-    "preview": "npx serve docs -l 4000"
+    "preview": "npx serve . -l 4000"
   }
 }
